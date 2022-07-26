@@ -1,14 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>bappy</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id voluptatem odio explicabo doloribus, officiis omnis eos soluta, autem dignissimos ut voluptates cupiditate ducimus nostrum, non sit praesentium. Accusamus, id?</p>
-    
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--Bootstrap icon link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  </head>
+  <body> 
+    <header>
+        <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div>
+                    <h4>Abacus Convention Center</h4>
+                </div>
+        
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li  class="nav-item">
+                        <a  class="nav-link" href="">Home</a></li>
+                    <li  class="nav-item">
+                        <a  class="nav-link" href="">About Us</a></li>
+                    <li  class="nav-item">
+                        <a  class="nav-link" href="">Contact</a></li>
+                    <li  class="nav-item">
+                        <a  class="nav-link" href="">Subscribe</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <section class="container mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                    <img src="images/banner.png" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>The perfect venue for your <br>next event</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laboriosam distinctio tempore similique doloribus deserunt molestiae porro non quibusdam quasi..</p>
+                      <a class="btn btn-light text-primary " href="">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+    </header>
+    <main>
+        <!--Every moment start-->
+        <section class="container mt-5">
+           <div class="row p-5">
+             <div class="col-lg-6">
+                <img class="w-100" src="images/wedding.png" alt="">
+             </div>
+             <div class="col-lg-6 d-flex align-items-center">
+                <div>
+                 <h1>Every moment is Precious</h1>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam similique, labore esse aperiam laboriosam dolores quasi excepturi nemo accusantium ipsum autem rerum voluptates maxime eius.</p>
+                 <div class="btn btn-primary">Explore our album <i class="bi bi-arrow-right"></i></div>
+                </div>
+             </div>
+           </div>
+        </section>
+        <!--Every moment end-->
+        <!--Our package start-->
+        <section class="container my-5">
+            <h1 class="Text-dark text-center my-5">Our Package</h1>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4   mb-3 text-center rounded-5">
+                <div class="col ">
+                  <div class="card mb-4 rounded-3 shadow-lg border border-0">
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title text-start">
+                          $300
+                      </h1>
+                      <h3 class="text-start">Business fair</h3>
+                      <p class="text-start">For most businesses event <br>like book fair.craft fair</p>
+                       <div class="text-start">
+                        <p><i class="bi bi-check2-circle text-info"></i> Limited Space Access</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> Security Facility</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> Event Support</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> Decoration design</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> Per day bill</p>
+                       </div>
+                      <button type="button" class="w-75 btn btn-info Text-dark font-weaight-bold">Choose plan</button>
+                    </div>
+                  </div>
+                </div>
+               
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-lg border border-0">
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title text-start">
+                          $500
+                      </h1>
+                      <h3 class="text-start">wedding basic</h3>
+                      <p class="text-start">For wedding with basic plan <br>and limited item</p>
+                       <div class="text-start">
+                        <p><i class="bi bi-check2-circle text-info"></i> Full space access</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> Food arrangment</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> mangenment Support</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> Decoration design</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> Billed as shift</p>
+                       </div>
+                      <button type="button" class="w-75 btn btn-info Text-dark font-weaight-bold">Choose plan</button>
+                    </div>
+                  </div>
+                </div>
+               
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-lg border border-0">
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title text-start">
+                          $800
+                      </h1>
+                      <h3 class="text-start">wedding plus</h3>
+                      <p class="text-start">For most weddings with<br>premium plans</p>
+                       <div class="text-start">
+                        <p><i class="bi bi-check2-circle text-info"></i> Full Space Access</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> Dedicated team</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> Buffet food</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> premium Decoration</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> Per as plan</p>
+                       </div>
+                      <button type="button" class="w-75 btn btn-info Text-dark font-weaight-bold">Choose plan</button>
+                    </div>
+                  </div>
+                </div>
+               
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-lg border border-0">
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title text-start">
+                          $1200
+                      </h1>
+                      <h3 class="text-start">Corporate event</h3>
+                      <p class="text-start">For most corporate businesses<br> event </p>
+                       <div class="text-start">
+                        <p><i class="bi bi-check2-circle text-info"></i> FUll Space Access</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> Dedicated team</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> Buffet food</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> premium Decoration</p>
+                        <p><i class="bi bi-check2-circle text-info"></i> pay as plan</p>
+                       </div>
+                      <button type="button" class="w-75 btn btn-info Text-dark font-weaight-bold">Choose plan</button>
+                    </div>
+                  </div>
+                </div>
+               
+               
+                
+                
+              </div>
+        </section>
+        <!--Our package end-->
+        <!--Happy Clients says start-->
+        <section class="container">
+            <h1 class="text-center my-5">Happy Clients says</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    
+                  <div class="card">
+                    <p class="card-text text-center">Slate helps you see how <br>many more days you need <br> to work to reach your financial <br> goal for the month and year</p>
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Regina Miles</h5>
+                      <p class="text-center">Banker</p>
+                    
+                    </div>
+                
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+        <!--Happy Clients says end-->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
 </html>
